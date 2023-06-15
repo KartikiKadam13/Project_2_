@@ -1,0 +1,124 @@
+body{
+    width: 100%;
+    min-height: 200vh;
+     background-image: linear-gradient(#00043b, #000000) ;
+     color: antiquewhite;
+}
+h2{
+    font-size: 1.5rem;
+    font-family: 'HP Simplified Hans'; 
+    text-align: center;
+    letter-spacing: 0.1rem;
+}
+.container{
+    width: 40rem;
+    height: 22rem;
+    background-color: lightblue;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    position: absolute;  
+}
+.container2{
+    position: absolute;
+    width: 30rem;
+    height: 15rem;
+    display: flex;
+    margin-left: 48rem;
+    margin-top: 4rem ;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-weight: 400;
+    font-family: 'HP Simplified Hans';
+}
+.img{
+    opacity: 0.6;
+    width: 20rem;
+    height: 22rem;
+    margin-left: 20rem;
+    position: absolute;
+}
+h3{
+    color: #000000;
+    font-size: 1.3rem;
+    font-family: 'HP Simplified Hans';
+    margin: 0.8rem;
+    text-align: left;
+}
+.name{
+    color: #000000;
+    font-size: 1.2rem;
+    font-family: 'HP Simplified Hans';
+    margin: 0.8rem;
+    padding: 1rem ;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+td{
+    width: 8rem;
+}
+#faren, #celcius, #kelvin{
+    margin-top: 1.2rem;
+    height: 1.8rem;
+    border-radius: 0.3rem;
+    background-color: aliceblue;
+    border: #000; 
+    font-size: 1.1rem;
+    font-family: 'HP Simplified Hans';
+    box-sizing: border-box;
+    padding: 0.5rem;
+}
+#submit{
+    cursor: pointer;
+    width: 7rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    border: black;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    font-family: 'HP Simplified Hans';
+    margin-top: 0.5rem;
+}
+#submit:hover{
+    background-color: rgb(75, 70, 70);
+}
+#celcius, #kelvin{
+    margin-left: 2rem;
+
+}
+@media only screen and (max-width: 750px) {
+    .container2{
+        position: relative;
+        margin-left: 5rem;
+        margin-top: 32rem ;
+        font-size: 1.2rem;
+    }
+    .container{
+        margin: auto;
+        margin-top: 2rem;
+        margin-left: 1.5rem; 
+        width: 37rem;
+    }
+    body{
+        height: 100vh;
+    }
+    
+}
+@media only screen and (max-width: 750px) {
+    .container2{
+        position: relative;
+        margin-left: 5rem;
+        margin-top: 29rem ;
+        font-size: 1.2rem;
+    }
+    .container{
+        margin: auto;
+        margin-top: 2rem;
+        margin-left: 1.5rem; 
+    }
+    
+}
